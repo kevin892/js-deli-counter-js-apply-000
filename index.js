@@ -1,5 +1,5 @@
-function takeANumber (deliLine, name) {
-  deliLine.push(name);
+function takeANumber (line, name) {
+  line.push(name);
   //pushes name to the back of line
-  return (`Welcome, ${name}. You are number ${deliLine.length} in line.`);
+  return (`Welcome, ${name}. You are number ${line.length} in line.`);
 };
