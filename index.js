@@ -3,4 +3,3 @@ function takeANumber (line, name) {
   //pushes name to the back of line
   return (`Welcome, ${name}. You are number ${line.length++} in line.`);
 };
-
